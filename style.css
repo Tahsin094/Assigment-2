@@ -212,3 +212,56 @@
     font-size: 18px;
     border-radius: 5px;
   }
+
+  /* bags section styling  */
+  .bags-section{
+    height: 100vh;
+  }
+  .bags-section h4{
+    font-size: 27px;
+    margin-bottom: -10px;
+    margin-left: 70px;
+    font-weight: 550;
+  }
+  .bags-wrapper {
+    margin: 0 55px; 
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    align-items: center;
+}
+  .bag-sample-image img{
+    width: 100%;
+  }
+  .bags-category-wrapper {
+    margin: 15px;
+    width: 33%;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.212);
+    height: auto;
+  }
+  .bag-category-container{
+    margin: 15px;
+  }
+  .bag-category-container h5{
+    margin-top: 5px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+  }
+  .bag-category-container p{
+    height: 20vh;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+  }
+  .bag-category-container button{
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+  }
