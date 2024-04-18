@@ -93,7 +93,7 @@
 
   /* category-section styling  */
   .category-section{
-    height: 35vh;
+    height: 50vh;
     margin: 0pc 70px;
   }
   .category-wrapper{
@@ -159,4 +159,56 @@
     font-weight: 500;
   }
 
-  
+  /* shoes section styling  */
+  .shoes-section{
+    height: 100vh;
+  }
+  .shoes-section h4{
+    font-size: 27px;
+    margin-bottom: -35px;
+    margin-left: 70px;
+    font-weight: 550;
+  }
+  .shoes-wrapper {
+    height: 100vh;
+    margin: 0 55px; 
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    align-items: center;
+}
+  .sample-image img{
+    width: 100%;
+  }
+  .shoes-category-wrapper{
+    margin: 15px;
+    height: 85vh;
+    width: 33%;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.212);
+  }
+  .category-container{
+    margin: 15px;
+  }
+  .category-container h5{
+    margin-top: 5px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+  }
+  .category-container p{
+    height: 27vh;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+  }
+  .category-container button{
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+  }
