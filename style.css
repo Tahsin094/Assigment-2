@@ -4,3 +4,44 @@
     box-sizing: border-box;
     font-family: "pooppins",sans-serif;
 }
+/* nav section styling  */
+.nav-area{
+    height: 10vh;
+    background-color: whitesmoke;
+}
+.nav-wrapper{
+    height: 10vh;
+    margin: 0px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.nav-logo img{
+    width: 9em;
+    margin-right: 20px;
+}
+.nav-container > ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.nav-container > ul > li{
+    list-style: none;
+}
+.nav-menu{
+    text-decoration: none;
+    font-size: 14px;
+    color: #2125298e;
+    font-weight: 100;
+}
+.nav-menu:hover{
+    color: #212529b6;
+    transition: 1s;
+}
+.home-button{
+    text-decoration: none;
+    font-size: 14px;
+    color: #212529;
+}
+
+  
