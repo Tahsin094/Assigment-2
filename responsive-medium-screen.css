@@ -1,0 +1,57 @@
+@media(min-width:769px) and (max-width:1023px){
+
+    /* nav section responsive  */
+    .nav-area{
+        height:5vh;
+    }
+    .nav-wrapper{
+        height: 5vh;
+        justify-content: space-between;
+    }
+    /* banner section responsive  */
+    .banner-section{
+        background-color: white;
+        height: 30vh;
+    }
+    .banner-wrapper{
+        height: 30vh;
+    }
+    .img-wrapper-1 img{
+        width: 300px;
+    }
+    /* category section responsive  */
+    .category-section{
+        height: 25vh;
+    }
+    .category-wrapper{
+        height: 20vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .category-wrapper > div {
+        width: 100%;
+        height: 80px;
+    }
+    /* shoes section responsive  */
+    .shoes-section{
+        height: 65vh;
+    }
+    .shoes-wrapper{
+        height: 65vh;
+    }
+    .shoes-category-wrapper{
+        height: 50vh;
+    }
+    /* bags section styling  */
+    .bags-section{
+        height: 60vh;
+    }
+    /* footer section responsive  */
+    .footer-section{
+        height: 35vh;
+    }
+    .footer-wrapper{
+        height: 30vh;
+    }
+}

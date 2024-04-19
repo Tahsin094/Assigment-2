@@ -1,0 +1,145 @@
+@media(max-width:768px){
+    body{
+        width: 100%;
+    }
+    /* nav section responsive  */
+    .nav-area{
+        height: 6vh;
+        width: 100%;
+    }
+    .nav-wrapper{
+        height: 6vh;
+        justify-content: space-between;
+        margin: 0px 10px;
+    }
+    .nav-container{
+        display: none;
+    }
+    .popup{
+        display:inline;
+    }
+    .popup img{
+        width: 50px;
+    }
+    /* banner section responsive */
+    .banner-section{
+        width: 100%;
+    }
+    .banner-wrapper{
+        flex-direction: column-reverse;
+        margin: 0px 10px;
+    }
+    .img-wrapper-1 img{
+        width: 300px;
+    }
+    /* category section responsive  */
+
+    .category-section{
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 10px;
+    }
+    .category-wrapper{
+        height: 20vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .category-wrapper > div {
+        width: 100%;
+        height: 80px;
+    }
+    .category-wrapper > div > h4{
+        font-size: 18px;
+    }
+    .category-wrapper > div > img{
+    }
+    .category-3 {
+        width: 100%;
+    }
+    /* shoes section responsive  */
+    .shoes-section{
+        height: 200vh;
+    }
+    .shoes-section h4{
+        margin-left: 10px;
+        margin-bottom: -1px;
+        font-weight: 100;
+    }
+    .shoes-wrapper{
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+    .shoes-category-wrapper{
+        width: 100%;
+    }
+    .category-container h5{
+        margin-top: 5px;
+        height: 30px;
+        font-size: 25px;
+        font-weight: 400;
+        align-items: center;
+      }
+    .category-container p{
+        height: 20vh;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 23px;
+      }
+      /* bags section responsive  */
+    .bags-section{
+        height: 235vh;
+    }
+    .bags-section h4{
+        margin-left: 10px;
+        margin-bottom: -1px;
+        font-weight: 100;
+    }
+    .bags-wrapper{
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+    .bags-category-wrapper{
+        width: 100%;
+        margin: 10px 10px;
+    }
+    .bag-category-container h5{
+        margin-top: 5px;
+        height: 30px;
+        font-size: 25px;
+        font-weight: 400;
+        align-items: center;
+      }
+    .bag-category-container p{
+        height: 20vh;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 23px;
+      }
+
+      /* footer section responsive  */
+      .footer-section{
+        width: 100%;
+        height: 45vh;
+      }
+      .footer-wrapper{
+        height: 30vh;
+        margin: 0px;
+      }
+      .footer-menu{
+        margin: 0px 50px;
+      }
+      .footer-menu h4{
+        font-size: 25px;
+        font-weight: 400;
+      }
+      .footer-menu p{
+        font-size: 12px;
+      }
+      .footer-copyright p{
+        text-align: center;
+        padding: 0px 50px;
+      }
+}
